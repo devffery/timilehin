@@ -1,0 +1,28 @@
+.hero {
+	background-image: url(../../../../public/images/banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+	width: 100%;
+}
+
+.hero .container {
+	padding-top:15% ;
+}
+
+.hero h1{
+	color: #c9a24d;
+	font-size: 60px;
+}
+
+.hero p{
+	color: #c9a24d;
+	opacity: 0.8;
+}
+
+@media screen and (max-width:768px ;){
+	.hero .container{
+		padding-top: 30%;
+	}
+}

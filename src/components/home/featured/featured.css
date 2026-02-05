@@ -1,0 +1,90 @@
+.featured img {
+	width: 65px;
+	height: 65px;
+	margin: auto;
+}
+
+/* Section */
+.featured {
+  padding: 60px 0;
+}
+
+/* Card container (auto responsive) */
+.featured .content,
+.featured .grid,
+.featured .featured-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+/* Card */
+.featured .box {
+  box-shadow: 0 0 20px rgba(112, 121, 138, 0.18);
+  border-radius: 6px;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featured .box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(112, 121, 138, 0.25);
+}
+
+/* Icon */
+.featured img {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+  object-fit: contain;
+}
+
+/* Text inside cards */
+.featured h3,
+.featured h4,
+.featured p {
+  margin-top: 10px;
+}
+
+/* Disclaimer */
+.featured h4 {
+  margin-top: 30px;
+  font-size: 14px;
+  opacity: 0.7;
+  text-align: center;
+}
+
+/* Tablet tweaks */
+@media screen and (max-width: 1024px) {
+  .featured {
+    padding: 50px 0;
+  }
+
+  .featured .box {
+    padding: 25px;
+  }
+}
+
+/* Mobile tweaks */
+@media screen and (max-width: 768px) {
+  .featured {
+    padding: 40px 0;
+  }
+
+  .featured .box {
+    padding: 20px;
+  }
+
+  .featured img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .featured h4 {
+    font-size: 12px;
+  }
+}
