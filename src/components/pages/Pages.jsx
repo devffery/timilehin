@@ -18,11 +18,17 @@ import Contact from "../contact/Contact"
 const Pages = () => {
 	return ( 
 	<>
-	<Router>
+	<Router basename="/timilehin">
 		<Header />
 		<Routes>
 			<Route path="/" element={<Home />} />
+			<Route path="/about" element={<About />} />
+			<Route path="/practices" element={<Practices />} />
+			<Route path="/team" element={<Team />} />
+			<Route path="/articles" element={<Articles />} />
+			<Route path="/contact" element={<Contact />} />
 		</Routes>
+
 		<Footer />
 {/**			<nav>
 				<ul>
