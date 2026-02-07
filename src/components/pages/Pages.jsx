@@ -1,10 +1,9 @@
 import React from 'react'
 import Header from "../common/header/Header"
 import {
-	BrowserRouter as Router,
+	HashRouter as Router,
 	Route,
 	Routes,
-	Link
 } from "react-router-dom"
 
 import Home from "../home/Home"
