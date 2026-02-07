@@ -85,3 +85,7 @@ h4{
   margin-top: 10px;
 }
 
+.back{
+  height: 40px;
+  position: unset;
+}
