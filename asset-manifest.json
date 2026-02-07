@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/timilehin/static/css/main.b461d1e3.css",
-    "main.js": "/timilehin/static/js/main.06926ddd.js",
+    "main.css": "/timilehin/static/css/main.b4c94198.css",
+    "main.js": "/timilehin/static/js/main.abc424d2.js",
     "static/js/453.b9256582.chunk.js": "/timilehin/static/js/453.b9256582.chunk.js",
     "static/media/banner.png": "/timilehin/static/media/banner.7d55cd787e5b7156d492.png",
+    "static/media/about.png": "/timilehin/static/media/about.03e4f6a9232d516c1691.png",
     "index.html": "/timilehin/index.html",
-    "main.b461d1e3.css.map": "/timilehin/static/css/main.b461d1e3.css.map",
-    "main.06926ddd.js.map": "/timilehin/static/js/main.06926ddd.js.map",
+    "main.b4c94198.css.map": "/timilehin/static/css/main.b4c94198.css.map",
+    "main.abc424d2.js.map": "/timilehin/static/js/main.abc424d2.js.map",
     "453.b9256582.chunk.js.map": "/timilehin/static/js/453.b9256582.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b461d1e3.css",
-    "static/js/main.06926ddd.js"
+    "static/css/main.b4c94198.css",
+    "static/js/main.abc424d2.js"
   ]
 }
