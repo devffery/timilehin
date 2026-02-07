@@ -1,3 +1,5 @@
+
+
 .about {
   margin-bottom: 20px;
 }
@@ -12,14 +14,49 @@
   margin-bottom: 20px;
   line-height: 30px;
 }
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 60px;
+  align-items: center;
+}
+
+
 @media screen and (max-width: 768px) {
-  .about .container {
-    flex-direction: column;
+  .about-grid {
+    grid-template-columns: 1fr; /* stack vertically */
+    gap: 40px;
   }
+
   .about p {
-    padding: 0;
+    padding-right: 0;
   }
-  .about .container img {
-    margin-top: 50px;
+
+  .about .right img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 92%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .back h1 {
+    font-size: 28px;
+  }
+
+  .heading {
+    width: 100%;
+    text-align: left;
+  }
+
+  .heading h1 {
+    font-size: 26px;
   }
 }

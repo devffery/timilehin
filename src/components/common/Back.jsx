@@ -1,17 +1,17 @@
 import React from 'react'
 
-const Back = ({name,title,cover}) => {
-	return (
-		<>
-			<div className='back'>
-				<div className='container'>
-					<span>{name}</span>
-					<h1>{title}</h1>
-				</div>
-				<img src={cover} alt='' />
-			</div>
-		</>
-		)
+const Back = ({ name, title, cover }) => {
+  return (
+    <div className="back">
+      <img src={cover} alt="" />
+      <div className="overlay">
+        <div className="container">
+          <span>{name}</span>
+          <h1>{title}</h1>
+        </div>
+      </div>
+    </div>
+  )
 }
 
 export default Back
